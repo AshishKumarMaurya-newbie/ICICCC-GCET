@@ -701,3 +701,14 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 480px) {
+  .site-logo {
+    height: 50px !important; /* Shrink logos on small screens */
+  }
+  .logo-container div { 
+    height: 40px !important; /* Shrink dividers */
+  }
+  .logo-container {
+    gap: 8px !important; /* Reduce gap */
+  }
+}
